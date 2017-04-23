@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abraham24.quizapp.Activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Pertnyaan 2"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="apakah ini?"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/duren" />
+
+        <CheckBox
+            android:id="@+id/checkbox_buah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buah" />
+
+        <CheckBox
+            android:id="@+id/checkbox_makanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makanan" />
+
+        <CheckBox
+            android:id="@+id/checkbox_minuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minuman" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sampah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sampah" />
+
+        <Button
+            android:id="@+id/button_next_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:onClick="coba"
+            android:text="next"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+</ScrollView>
+
